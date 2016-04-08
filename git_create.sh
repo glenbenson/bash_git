@@ -19,14 +19,14 @@
 #-- see if there is a user name in the global settings
 username=`git config dakabi.username`
 if [ "$username" = "" ]; then
-    echo "Could not find username, run 'git config --global github.user <username>'"
+    echo "Could not find username, run 'git config --global dakabi.username <username>'"
     invalid_credentials=1
 fi
 
 #-- see if there is a password in the global settings
 password=`git config dakabi.password`
 if [ "$password" = "" ]; then
-    echo "Could not find password, run 'git config --global github.password <username>'"
+    echo "Could not find password, run 'git config --global dakabi.password <username>'"
     invalid_credentials=1
 fi
 
