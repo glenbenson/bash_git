@@ -1,0 +1,3 @@
+git commit -m "One Liner" dk_webinstall.sh
+
+nano ~/.gitconfig
