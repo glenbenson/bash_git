@@ -32,7 +32,7 @@ fi
 # example : cp -a /root/src/. /root/alpha/src
 #----------------------------------------------------------
 
-
+reponame=`basename $(pwd)`
 #-- init git localy
 git init
 
@@ -43,7 +43,7 @@ git add .
 git commit -am "commit message"
 
 #-- push them to github
-git push https://$username:$password@github.com/glenbenson/alpha.git --all
+git push https://$username:$password@github.com/glenbenson/$reponame.git --all
 
 echo " done."
 
