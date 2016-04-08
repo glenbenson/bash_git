@@ -2,6 +2,7 @@
 #############################################
 #  Written By Glen Benson 4/8/2016
 #  Creates a new repository on Github
+#  MUST BE RUN FROM THE PROJECT DIRECTORY
 #  Modified from source at
 #  https://github.com/KENJU/git_shellscript 
 #
