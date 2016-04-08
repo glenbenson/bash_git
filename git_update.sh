@@ -26,7 +26,6 @@ if [ "$password" = "" ]; then
     invalid_credentials=1
 fi
 
-
 #----------------------------------------------------------
 # [OPTIONAL] copy all other needed folders into this folder 
 # so they all get pushed to the same repository
