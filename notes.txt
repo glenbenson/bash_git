@@ -1,3 +1,9 @@
+
+# creates a message for a file
 git commit -m "My Notes" notes.txt
 
+# view the config file
 nano ~/.gitconfig
+
+#Push all tracked file changes to github
+git push
