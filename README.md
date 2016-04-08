@@ -16,7 +16,7 @@
 These scripts are alpha and in testing for personal use.<br>
 
 <pre>
-git_update.sh 
+<b>git_update.sh </b>
 Pushes project updates to git hub unattended.
   Usage: cd /project folder
          sudo bash git_update.sh
