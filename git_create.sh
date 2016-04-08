@@ -30,7 +30,6 @@ if [ "$password" = "" ]; then
 fi
 
 
-
 # get repo name
 dir_name=`basename $(pwd)`
 read -p "Do you want to use '$dir_name' as a repo name?(y/n)" answer_dirname
@@ -54,7 +53,6 @@ esac
 # so they all get pushed to the same repository
 # example : cp -a /root/src/. /root/alpha/src
 #----------------------------------------------------------
-
 
 
 # create remote repo
