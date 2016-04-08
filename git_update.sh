@@ -2,7 +2,7 @@
 ####################################################################
 #  Written By Glen Benson 4/8/2016
 #  Updates a GITHUB Repository
-#  MUST BE RUN FROM THE PROJECT DIRECTORY
+#  !!!MUST BE RUN FROM THE PROJECT DIRECTORY
 #  Must have user and password already set in the global settings
 #   to see global git settings enter:  nano ~/.gitconfig
 #  
