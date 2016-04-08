@@ -15,11 +15,12 @@
 <h2>GIT Bash Scripts </h2>
 These scripts are alpha and in testing for personal use.<br>
 git_update.sh <br>
+<pre>
 Pushes project updates to git hub unattended.<br>
   Usage: cd /project folder<br>
          sudo bash git_update.sh<br>
          
-
+</pre>
 
 </body>
 </html>
