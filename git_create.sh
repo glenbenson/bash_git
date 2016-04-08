@@ -15,8 +15,6 @@
 #   git config --global dakabi.email  "emailaddress.com"
 #############################################
 
-
-
 #-- see if there is a user name in the global settings
 username=`git config dakabi.username`
 if [ "$username" = "" ]; then
