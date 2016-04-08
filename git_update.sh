@@ -1,7 +1,7 @@
 #!/bin/sh
 ####################################################################
 #  Written By Glen Benson 4/8/2016
-#  Updates GITHUB
+#  Updates a GITHUB Repository
 #  Must have user and password already set in the global settings
 #   to see global git settings enter:  nano ~/.gitconfig
 #  
