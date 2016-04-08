@@ -76,7 +76,8 @@ git add -A    ## adds all files
 git commit -m "first commit"   ## just a message 
 git remote rm origin
 git remote add origin https://github.com/$username/$reponame.git
-git push -u origin master
+#git push -u origin master
+git push https://$username:$password@github.com/glenbenson/alpha.git --all
 echo " done."
 
 
